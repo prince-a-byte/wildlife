@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.uppernav {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 35px;
+    background-color: rgb(58,85,8);
+}
+
+#date {
+    margin-left: 350px;
+    margin-right: 200px;
+}
+
+.feedlist{
+    line-height: 5px;
+}
+
+a {
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* a:hover {
+    background-color: red;
+} */
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.Selectlanguage {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+select {
+    padding-left: 4px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height:30px;
+    width: 130px;
+}
+
+.centrenav {
+    padding-left: 110px;
+    background: url(https://wii.gov.in/sites/all/themes/fresh/images/head.jpg);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 70%;
+    /* background-color: blue; */
+}
+
+#logo img {
+    height: 79px;
+}
+
+#logo span {
+    color: white;
+    font-size: 11px;
+    margin-left: -240px;
+}
+
+.logo2 {
+    height: 80%;
+    width: 40%;
+    /* background-color: aqua; */
+    margin-right: 120px;
+    margin-left: 560px;
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+    width: 40%;    /* background-color: antiquewhite; */
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 20% 80%;
+}
+
+.logo2 .search{
+    margin-left: 30px;
+}
+
+.logo2 .search input{
+    height: 30px;
+}
+
+.logo2 #search{
+    border-radius: 8px;
+}
+
+.logo2 #btn{
+    font-size: 16px;
+    color: #fff;
+    width: 80px;
+    border-radius: 8px;
+    background-color: #677B1B;
+}
+
